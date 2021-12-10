@@ -96,7 +96,6 @@ export default {
     },
     styleObject: function () {
       let color;
-      console.log(this.planet.slug);
       switch (this.planet.slug) {
         case "mercury":
           color = "#419ebb";
