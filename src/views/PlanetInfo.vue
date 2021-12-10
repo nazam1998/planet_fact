@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="planet-text-info">
     <p class="text-muted my-4">{{ planetDesc.content }}</p>
     <p class="text-secondary">
       Source :
@@ -38,5 +38,8 @@ export default {
 }
 .source-link img {
   margin-left: 5px;
+}
+.planet-text-info{
+    height: 200px;
 }
 </style>

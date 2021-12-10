@@ -9,7 +9,7 @@
       label="Enter your name"
       label-for="input-horizontal"
     >
-      <b-form-input v-model="username" id="input-horizontal"></b-form-input>
+      <b-form-input @keyup.enter="login" v-model="username" id="input-horizontal"></b-form-input>
     </b-form-group>
     <b-button @click="login" class="btn btn-primary">Login</b-button>
   </b-card>
